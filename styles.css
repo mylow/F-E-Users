@@ -1,0 +1,37 @@
+.feup-pure-button-primary, .feup-pure-button-selected, a.feup-pure-button-primary, a.feup-pure-button-selected {
+    background-color:#5e1213;!important
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: @btn-font-weight;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 20px;
+    border-radius: 4px;
+}
+.feup-pure-form-aligned .feup-pure-control-group label {
+    margin-right:10px;
+}
+
+.signup-2nd-group {
+    margin-top:5em;
+}
+
+.ewd-feup-date-input {
+font-size: .9rem;
+}
+
+
+/* CLOSE FEUP styles */
+
+.email-wrong{
+    color:red;
+}
+
+    @media screen and (min-width:550px){
+        .email-wrong{
+            margin-left:12.5em;
+        }
+    }
